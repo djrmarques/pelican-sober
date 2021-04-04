@@ -33,6 +33,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  margin: 1%;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 0.95em;
@@ -309,25 +310,3 @@ li.tag-4 { font-size: 110%; margin: 0 1em; }
  {
   margin-top: 0;
 }
-
-
-/* Responsive */
-
-@media (min-width: 1280px) {
-  body {
-    margin: 0 20%;
-  }
-}
-
-@media (max-width: 1280px) {
-  body {
-    margin: 0 12%;
-  }
-}
-
-@media (max-width: 979px) {
-  body {
-    margin: 0 4%;
-  }
-}
-
